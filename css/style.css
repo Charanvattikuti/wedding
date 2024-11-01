@@ -480,25 +480,25 @@ body {
 /* Styling for the countdown timer */
 #countdown-timer {
     display: flex;
-    align-items: center;
-    gap: 5px;
+    justify-content: center;
+    gap: 10px; /* Adjust spacing between time elements */
+}
+
+.time-container {
     text-align: center;
 }
 
 .time-element {
-    font-size: 2em; /* Adjust font size as desired */
+    font-size: 2em; /* Adjust the size as needed */
     display: block;
-    margin: 0 5px;
+    margin-bottom: 5px;
 }
 
 .time-label {
     font-size: 0.8em;
-    color: #674ea7; /* Adjust color to match your theme */
-    text-align: center;
-    display: inline-block;
-    width: 100%;
-    margin-top: 5px;
+    color: #674ea7; /* Adjust color to match your design */
 }
+
 
 
 
