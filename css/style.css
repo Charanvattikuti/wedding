@@ -498,6 +498,41 @@ body {
     font-size: 0.8em;
     color: #674ea7; /* Adjust color to match your design */
 }
+/* Highlight the date */
+.date-highlight {
+    text-align: center;
+    color: #D33106;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+/* Style for the countdown message */
+#countdown-message {
+    font-size: 1.2em;
+    color: #444;
+    margin-top: 5px;
+}
+
+/* Styling for the countdown timer */
+#countdown-timer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    font-size: 2em;
+    font-weight: bold;
+    color: #571402;
+}
+
+.time-element {
+    display: inline-block;
+    padding: 0 10px;
+    text-align: center;
+    background-color: #f7e1c3;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    min-width: 50px;
+}
 
 
 
