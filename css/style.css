@@ -462,79 +462,68 @@ body {
 	margin-bottom: 40px;
 }
 
-#t/* Countdown Timer Styles */
-
 #time {
-    display: flex;
-    justify-content: center;
-    padding: 10px;
-    background-color: #eee;
-    border-radius: 10px;
-    font-size: 18px;
-    font-weight: bold;
-    color: #333;
+	width: auto;
+	height: auto;
+	padding: 20px;
+	background-color: #eee;
+	border-radius: 20px;
+	font-size: 16px;
+}
+
+.venue {
+	width: auto;
+	height: auto;
+	background-color: #674ea7;
+	border-radius: 16px;
+	text-align: center;
+	color: #fff;
+	padding: 8px;
+	margin-right: 8px;
+}
+
+.venue a {
+	text-decoration: none;
+	color: #fff;
 }
 
 .container {
-    display: flex;
-    gap: 10px;
-    align-items: center;
-    text-align: center;
-    font-family: 'Arvo', serif;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	border-radius: 10px;
+	overflow: hidden;
 }
 
 .block {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 10px 15px;
-    background-color: #674ea7;
-    color: #fff;
-    border-radius: 5px;
-    font-size: 16px;
-    font-weight: bold;
+	width: 180px;
+	height: 160px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	color: #fff;
 }
 
-.days, .hours, .minutes, .seconds {
-    font-size: 28px;
+.days {
+	background: linear-gradient(90deg, #b33a46, #9b313c);
 }
 
-.days { background-color: #b33a46; }
-.hours { background-color: #a7c3cd; }
-.minutes { background-color: #874562; }
-.seconds { background-color: #145689; }
+.hours {
+	background: linear-gradient(90deg, #a7c3cd, #90a9b2);
+}
 
-/* Highlighted Countdown Date */
+.minutes {
+	background-color: #874562;
+}
+
+.seconds {
+	background-color: #145689;
+}
+
 .date {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #e25c67;
-    color: #fff;
-    font-size: 20px;
-    font-weight: 900;
-    border-radius: 8px;
-    margin-bottom: 10px;
-    text-align: center;
+	color: #874562;
+	font-weight: 900;
 }
-
-.happiness {
-    color: #874562;
-    font-size: 24px;
-    font-weight: bold;
-    text-align: center;
-    margin-bottom: 24px;
-}
-
-/* Other Text Styles */
-.footer, .place {
-    color: #564861;
-    font-size: 16px;
-    text-align: center;
-    font-weight: bold;
-    margin-top: 10px;
-}
-
 
 .place {
 	color: #874562;
