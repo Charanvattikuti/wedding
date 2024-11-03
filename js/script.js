@@ -98,9 +98,3 @@ console.log(
     `%cShaadi me zaroor aana!\n\n`,
     'color: yellow; background:tomato; font-size: 24pt; font-weight: bold',
 )
-document.getElementById("open-invitation").addEventListener("click", function() {
-    document.getElementById("overlay").style.display = "none";
-    document.getElementById("main-content").style.display = "block";
-    document.getElementById("my_audio").play(); // Optional: Start background music
- });
- 
