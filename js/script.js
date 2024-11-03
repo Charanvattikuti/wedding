@@ -101,6 +101,6 @@ console.log(
 document.getElementById("open-invitation").addEventListener("click", function() {
     document.getElementById("overlay").style.display = "none";
     document.getElementById("main-content").style.display = "block";
-    document.getElementById("my_audio").play(); // Optional: Play audio when opening
+    document.getElementById("my_audio").play(); // Optional: Start background music
  });
  
