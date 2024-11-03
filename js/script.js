@@ -57,35 +57,6 @@ var x = setInterval(function() {
     }
 }, 1000);
 
-*===== SCROLL REVEAL ANIMATION =====*/
-const sr = ScrollReveal({
-    origin: 'top',
-    distance: '1.5rem',
-    duration: 2000,
-    delay: 200,
-    // reset: true
-});
-
-
-// sr.reveal(`.rahul`,{ delay: 300, origin: 'top' })
-sr.reveal(`.navya`, { origin: 'left', delay: 700 })
-sr.reveal(`.navya`, { origin: 'right', delay: 700 })
-sr.reveal(`.gif,.home_txt`, { delay: 1300, origin: 'top' })
-sr.reveal(`.top-right-decoration,.top-left-decoration`, { origin: 'left', delay: 2200 })
-sr.reveal(`.responsive-table__row`, { interval: 200 })
-sr.reveal(`.table_container`, { delay: 100, origin: 'top' })
-sr.reveal(`.happiness,.hindi_text`, { delay: 400, origin: 'bottom' })
-sr.reveal(`.social__links`, { delay: 1000, origin: 'bottom', interval: 200 })
-sr.reveal(`.newsletter__description,.home__bottom`, { origin: 'left', delay: 400 })
-sr.reveal(`.newsletter__form,.CTA`, { origin: 'right', delay: 400 })
-
-
-
-
-
-
-
-
 
 // being a bit cool :p  
 var styles = [
@@ -119,15 +90,11 @@ var styles2 = [
     , 'font-size: 32px'
 ].join(';');
 
-console.log('\n\n%c SAVE THE DATE: Dec 04, 2023!', styles);
+console.log('\n\n%c SAVE THE DATE: 29th Nov, 2020!', styles);
 
-console.log('%cYour presence is requested!%c\n\nRegards: Rahul Jangir', styles1, styles2);
+console.log('%cYour presence is requested!%c\n\nRegards: Vinit Shahdeo', styles1, styles2);
 
 console.log(
     `%cShaadi me zaroor aana!\n\n`,
     'color: yellow; background:tomato; font-size: 24pt; font-weight: bold',
 )
-
-
-
-
