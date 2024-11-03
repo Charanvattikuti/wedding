@@ -68,8 +68,8 @@ const sr = ScrollReveal({
 
 
 // sr.reveal(`.rahul`,{ delay: 300, origin: 'top' })
-sr.reveal(`.rahul`, { origin: 'left', delay: 700 })
-sr.reveal(`.pranjal`, { origin: 'right', delay: 700 })
+sr.reveal(`.navya`, { origin: 'left', delay: 700 })
+sr.reveal(`.navya`, { origin: 'right', delay: 700 })
 sr.reveal(`.gif,.home_txt`, { delay: 1300, origin: 'top' })
 sr.reveal(`.top-right-decoration,.top-left-decoration`, { origin: 'left', delay: 2200 })
 sr.reveal(`.responsive-table__row`, { interval: 200 })
